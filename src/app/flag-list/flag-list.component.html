@@ -1,0 +1,7 @@
+<p>flag-list works!</p>
+
+<ul>
+  <li *ngFor="let flag of flags$ | async">
+    <flag-component [flag]="flag"> </flag-component>
+  </li>
+</ul>
